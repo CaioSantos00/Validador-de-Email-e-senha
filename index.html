@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <section id="section">
+        <input type="text" id="email" class="inputs" placeholder="Email" required>
+       <br>
+        <div id="sucessEmail" class="sucess"></div>
+        <div id="errorE" class="error"></div>
+        <br> 
+        <input type="text" id="senha" class="inputs" placeholder="Senha" required>
+        <br>
+        <div id="sucessSenha" class="sucess"></div>
+        <div id="errorS" class="error"></div>
+        <br>
+        <button class="envio" onclick="verifica()">Verifique</button> 
+        <button class="envio" onclick="limpe()">Limpe</button> <br><br> 
+        <strong>Limpe depois que houver todos válidos.</strong>
+        <br><br>
+        Use seis caracteres ou mais com uma cobinação de letras maiúsculas, minúscula, números e caracteres especiais.
+    </section>
+</body>
+</html>
